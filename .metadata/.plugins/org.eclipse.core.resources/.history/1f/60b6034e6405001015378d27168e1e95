@@ -1,0 +1,11 @@
+package NewSpring.SpringApp;
+
+public class PaymentProcessor {
+	
+	CardPayment p;
+	
+	public void PProcessor() {
+		p.payment();
+	}
+
+}

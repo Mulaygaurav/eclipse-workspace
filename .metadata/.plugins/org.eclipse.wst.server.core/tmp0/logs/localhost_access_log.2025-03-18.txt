@@ -1,0 +1,8 @@
+127.0.0.1 - - [18/Mar/2025:09:11:15 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [18/Mar/2025:09:11:15 +0530] "GET /MyFirstProject/registration.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Mar/2025:09:11:15 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [18/Mar/2025:09:12:02 +0530] "POST /MyFirstProject/show HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [18/Mar/2025:09:14:49 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [18/Mar/2025:09:14:54 +0530] "POST /MyFirstProject/show HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [18/Mar/2025:09:18:05 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [18/Mar/2025:09:18:10 +0530] "POST /MyFirstProject/show HTTP/1.1" 200 -

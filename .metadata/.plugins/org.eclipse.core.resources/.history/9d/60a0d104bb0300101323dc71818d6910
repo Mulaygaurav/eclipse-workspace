@@ -1,0 +1,5 @@
+package NewSpring.SpringApp;
+
+public class DebitCard implements CardPayment {
+
+}

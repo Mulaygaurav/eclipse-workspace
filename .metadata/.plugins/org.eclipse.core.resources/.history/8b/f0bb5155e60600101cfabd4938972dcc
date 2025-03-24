@@ -1,0 +1,11 @@
+package Spring;
+
+public class Debit implements CardPayment {
+
+	@Override
+	public void payment() {
+		System.out.println("debit Payment");
+		
+	}
+
+}

@@ -1,0 +1,8 @@
+127.0.0.1 - - [12/Mar/2025:09:54:40 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [12/Mar/2025:09:54:42 +0530] "GET /TemporaryProject/Login.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [12/Mar/2025:09:54:42 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [12/Mar/2025:09:55:02 +0530] "GET /TemporaryProject/show?email=sahil%40gmail.com&password=sahil%40123 HTTP/1.1" 200 18
+0:0:0:0:0:0:0:1 - - [12/Mar/2025:09:55:18 +0530] "GET /TemporaryProject/show?email=sahil1%40gmail.com&password=sahil%40123 HTTP/1.1" 200 28
+0:0:0:0:0:0:0:1 - - [12/Mar/2025:09:55:31 +0530] "GET /TemporaryProject/show?email=sahil%40gmail.com&password=sahil%4012 HTTP/1.1" 200 28
+0:0:0:0:0:0:0:1 - - [12/Mar/2025:09:55:44 +0530] "GET /MyFirstProject/Login.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [12/Mar/2025:09:55:57 +0530] "POST /MyFirstProject/show HTTP/1.1" 200 -

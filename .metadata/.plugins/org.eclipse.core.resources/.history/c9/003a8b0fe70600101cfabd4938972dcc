@@ -1,0 +1,33 @@
+package Spring;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component("abc")
+public class PaymentProcess {
+	
+		CardPayment p;
+		
+		
+		public PaymentProcess() {
+			super();
+		}
+
+
+		public void doPay() {
+			p.payment();
+		}
+
+		
+		public CardPayment getP() {
+			return p;
+		}
+
+		@Autowired
+		public void setP(CardPayment p) {
+			this.p = p;
+		}
+
+
+		
+}

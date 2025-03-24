@@ -1,0 +1,20 @@
+package Spring;
+
+public class PaymentProcess {
+	
+		CardPayment p;
+		Debit d;
+		Credit c;
+		
+		public void doPay() {
+			d.payment();
+		}
+
+		public CardPayment getP() {
+			return p;
+		}
+
+		public void setP(CardPayment p) {
+			this.p = p;
+		}
+}

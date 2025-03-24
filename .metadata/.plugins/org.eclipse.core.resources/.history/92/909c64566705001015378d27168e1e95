@@ -1,0 +1,6 @@
+package Spring;
+
+public class Credit implements CardPayment {
+	
+
+}

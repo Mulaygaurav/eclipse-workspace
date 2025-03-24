@@ -1,0 +1,8 @@
+package NewSpring.SpringApp;
+
+public class DebitCard implements CardPayment {
+
+	 public DebitCard() {
+		 System.out.println("I am debit constuctor");
+	 }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!-- bean definitions here -->
+<bean id="temp1" class="Spring.Debit"></bean>
+<bean id="temp2" class="Spring.Credit"></bean>
+<bean id="sample" class="Spring.PaymentProcess">
+<constructor-arg name="p" ref="temp2"></constructor-arg>
+
+
+</bean>
+
+</beans>

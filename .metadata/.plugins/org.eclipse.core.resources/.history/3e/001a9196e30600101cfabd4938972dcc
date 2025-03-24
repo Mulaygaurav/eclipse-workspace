@@ -1,0 +1,11 @@
+package Spring;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class ConfigClass {
+
+	 public  Debit dCard() {
+		 return new Debit();
+	 }
+}

@@ -1,0 +1,11 @@
+package Spring;
+
+public class Debit implements CardPayment {
+
+	@Override
+	public void payment() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

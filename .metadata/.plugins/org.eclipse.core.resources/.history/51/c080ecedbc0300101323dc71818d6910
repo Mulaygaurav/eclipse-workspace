@@ -1,0 +1,15 @@
+package NewSpring.SpringApp;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class NewMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ApplicationContext ex= new ClassPathXmlApplicationContext("NewFile1.xml");
+		DebitCard dc=(DebitCard) ex.getBean("temp1");
+		dc.payment();
+	}
+
+}

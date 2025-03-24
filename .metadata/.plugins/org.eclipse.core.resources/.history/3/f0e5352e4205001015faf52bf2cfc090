@@ -1,0 +1,9 @@
+package NewSpring.SpringApp;
+
+public class Address {
+	
+	private Village;
+	private Tal;
+	private Dist;
+
+}

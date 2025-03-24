@@ -1,0 +1,15 @@
+package NewSpring.SpringApp;
+
+public class CreditCard implements CardPayment {
+
+	 public CreditCard() {
+		 System.out.println("I am debit constuctor");
+	 }
+
+	@Override
+	public void payment() {
+		 System.out.println("credit pay");// TODO Auto-generated method stub
+		
+	}
+	 
+}

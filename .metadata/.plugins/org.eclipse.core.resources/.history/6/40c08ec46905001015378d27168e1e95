@@ -1,0 +1,10 @@
+package Spring;
+
+public class PaymentProcess {
+	
+		CardPayment p;
+		
+		public void doPay() {
+			p.payment();
+		}
+}
